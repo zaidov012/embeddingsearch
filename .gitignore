@@ -68,5 +68,6 @@ htmlcov/
 .tox/
 
 # Models (large files - should be downloaded or referenced separately)
-# Uncomment if you want to exclude model files from git
-# models/
+# Exclude all model files except the README
+models/*/
+!models/README.md
